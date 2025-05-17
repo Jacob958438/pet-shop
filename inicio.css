@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #4a90e2; 
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    color: #fff;
+}
+a {
+    text-decoration: none;
+    padding: 20px 30px;
+    display: inline-block;
+    font-weight: bold;
+    font-size: 24px;
+    background-color: #3675ba;
+    color: white;
+    border-right: 2px solid #4a90e2;
+}
+a:hover {
+    background-color: #2e5fa0;
+}
+h1 {
+    font-size: 48px;
+    margin: 10px 0;
+    color: #fff;
+}
+h2 {
+    font-size: 26px;
+    margin: 20px 0 10px;
+    font-weight: bold;
+    color: #fff;
+}
+h3 {
+    font-size: 24px;
+    margin: 20px 0;
+    font-weight: bold;
+    color: #fff;
+}
+section {
+    width: 100%;
+    padding: 30px;
+    box-sizing: border-box;
+    text-align: center;
+}
+section img {
+    max-width: 100%;
+    height: auto;
+    margin: 10px auto;
+    display: block;
+}
+.icon {
+    font-size: 24px;
+    margin-right: 5px;
+}
+.barra-whatsapp {
+    background-color: #b2f34e;
+    padding: 20px;
+    font-size: 22px;
+    font-weight: bold;
+    color: #1a1a1a;
+    text-align: center;
+}
+footer {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #3e79c4;
+    color: white;
+    font-size: 18px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+footer span {
+    margin: 10px;
+    display: inline-block;
+}
