@@ -4,22 +4,93 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Productos</title>
-    <link rel="stylesheet" href="pro.css">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  
 </head>
-<body>
-    <div>
+<body class="p-3 mb-2 bg-primary-subtle text-primary-emphasis">
     <header>Productos</header>
     <p>Aquí encontraras todos los productos necesarios para tus mascotas, tales como
-        accesorios,snacks,juguetes,etc. </p>
-    </div>
+        accesorios,snacks,juguetes,etc.  </p>
     <h1>Productos más relevantes</h1>
-    <div>
-        <img src="" alt="">
-        <h2>Collares</h2>
-        <img src="" alt="">
-        <h2>Camas</h2>
-        <img src="" alt="">
+    <section class="img"><div class="card" style="width: 18rem;">
+        <img src="../img/collares.jpg" class="card-img-top" alt="..." height="200px" width="180px">
+        <div class="card-body">
+          <p class="card-text">Collares de varios estilos para perros y gatos</p>
+          <a href="../productos/Collares.html"><button id="ver">Ver más</button></a>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem;">
+        <img src="../img/cama.jpg" class="card-img-top" alt="..."height="200px" width="180px">
+        <div class="card-body">
+          <p class="card-text">Camas y cojines para que tu peludo descanse</p>
+          <a href="../productos/Camas.html"><button id="ver">  Ver más</button></a>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem;">
+        <img src="../img/cuido.jpg" class="card-img-top" alt="..." height="200px" width="180px">
+        <div class="card-body">
+          <p class="card-text">Diferentes tipos de cuidos para que tu amigo esté sano</p>
+         <a href="../productos/cuido.html"><button id="ver">  Ver más</button></a> 
+        </div>
+      </div>
+      <div class="card" style="width: 18rem;">
+        <img src="../img/juguetes.jpg" class="card-img-top" alt="..." height="200px" width="180px">
+        <div class="card-body">
+          <p class="card-text">Juguetes para que tu mascota se entretenga y se divierta</p>
+          <a href="../productos/productos.html"><button id="ver"> Ver más </button></a>
+        </div>
+      </div>
+    </section>
+    <section><div id="btn"><button  class="btn btn-primary btn-lg"  >Volver  </button>
+        </section>
+    <style>body{
+    margin-left: 80px;
+    margin-right: 80px;
+    background-color: rgb(181, 193, 226);
+}
+header{
+      font-family:oblique bold 120% cursive ;
+      font-size: 40px;
+}
+p{
+    font-family: oblique bold 120% cursive;
+    font-size: 25px;
+}
+h1{
+    color: blue;
+    font-size: 30px;
+}
+.card{
+    font-size: 25px;
+    font-family: oblique bold 160% cursive ;
+    background-color: rgb(168, 168, 226);
+}
+.img{
+    display: flex;
+   justify-content: center;
+   justify-content: space-evenly;
+}
+.logo{
+    border-radius: 10%;
+    border-color: black;
+}
+#btn{
+   border-radius: 14%;
+   display: flex;
+   justify-content: flex-end;
+   justify-content: space-evenly;
+   align-items: baseline;
+}
+#ver{
+    background-color: rgb(100, 100, 173);
+    font-family: oblique bold 120% cursive;
+    font-size: 20px;
+    color: aliceblue;
 
-    </div>
+}
+.div{
+    margin-top: 20px;
+}</style>
+    
 </body>
 </html>
