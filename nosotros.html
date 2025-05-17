@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>proyecto</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="nosotros.css">
+</head>
+<style>
+    *{
+        margin: 0px;
+        padding: 0px;
+    }
+    body{
+        background-color: rgb(181, 193, 226);
+    }
+    #imagen{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 70px;
+        margin-right: 70px;
+         border-radius:  80%;
+    }
+    #contacto{
+        display: flex;
+        align-items: flex-end;
+        justify-content: space-between;
+        margin-left: 200px;
+        margin-right: 200px;
+    }
+    #volver{
+        display: flex;
+        flex-direction: column;
+    }
+    .card{
+         background-color: rgb(168,168,226);
+         font-size: 20px;
+         font-family: oblique bold 160% cursive;
+    }
+    .btn{
+          font-family: oblique bold 160% cursive;
+          font-size: 18px;
+    }
+</style>
+<body >
+    <header class="hero text-center text-dark">
+        <div class="container">
+            <h1 class="display-4">Tu Mejor Amigo: Todo lo que necesitas saber sobre el cuidado de tus mascotas</h1>
+        </div>
+    </header>
+    
+    <section id="projects" class="projects p-5" >
+        <div class="container ">
+            <div class="row">
+
+                <div class="col-md-4 ">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Bienvenido a nuestro mundo</h5>
+                            <p class="card-text">¡Nos alegra que estés aquí! En Family
+                                Pets Shop, creemos que cada mascota
+                                merece ser tratada con amor y 
+                                cuidado. Descubre cómo mejorar su 
+                                calidad de vida y fortalecer ese lazo 
+                                tan especial entre tú y tu compañero 
+                                peludo.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div id="imagen">
+                    <img src="../recursos/WhatsApp Image 2025-05-10 at 11.01.13 AM (2).jpeg" alt="chifus 1" width="230px" height="180px">
+                    <img src="../recursos/tara.jpeg" alt="tara"  width="230px" height="180px" >
+                    <img src="../recursos/WhatsApp Image 2025-05-10 at 11.01.13 AM.jpeg" alt="chifus 2"  width="230px" height="180px">
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Comparte tu amor por las mascotas</h5>
+                            <p class="card-text">Únete a nuestra comunidad de 
+                                amantes de los animales. Comparte 
+                                experiencias, fotos y consejos con 
+                                otros dueños de mascotas. Juntos, 
+                                podemos hacer que el mundo sea 
+                                un lugar mejor para nuestros fieles 
+                                amigos.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="d-flex mb-3 me-auto p-2 " id="contacto">    
+        <div class="card h-100">
+            <h6 class="card-title">Contactanos</h6>
+            <p class="card-text h6">Email: contacto@mascotasfelices.com <br>
+                Teléfono: +34 912 345 678 <br>
+                Dirección: Calle de los Animales, 123, Madrid, España <br>
+                Redes Sociales: <br>
+                -Facebook: @MascotasFelices <br>
+                -Instagram: @Mascotas_Felices <br>
+                -Twitter: @MascotasFelices</p>
+        </div>
+        <div class="column " id="volver">
+            <img src="../recursos/Captura de pantalla 2025-05-10 110306.png" alt="logo" width="200px" height="150px" class="img-fluid rounded-circle">
+            <button class="btn btn-primary ">volver</button>
+        </div>
+    </section>
+</body>
+</html>
